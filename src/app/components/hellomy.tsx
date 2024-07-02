@@ -1,6 +1,5 @@
 import { Button, Image } from "@nextui-org/react";
-
-
+import Link from "next/link";
 
 
 
@@ -15,8 +14,8 @@ export default function Hello(){
                     <h1 className=" md:text-6xl py-5  text-[40px] font-bold">Hello,  my name is Abdul Tawab</h1>
                     <p  className=" text-silver text-[24px]">I am dedicated to bringing creative designs to life and ensuring seamless user experiences. My goal is to build visually appealing and highly functional websites that meet the needs of users and clients alike.</p>
                    <div className=" flex gap-3 py-5">
-                     <Button className=" bg-yellow w-28 h-10 text-base font-medium">Projects</Button>
-                     <Button className=" bg-transparent w-28 h-10 text-base font-medium border-black rounded-lg border-2">Linkedin</Button>
+                     <Button className=" bg-yellow w-28 h-10 text-base font-medium"><Link href="#2" >Projects</Link></Button>
+                     <Button className=" bg-transparent w-28 h-10 text-base font-medium border-black rounded-lg border-2"><Link href="https://www.linkedin.com/in/tawab-malik-78ab9525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</Link></Button>
                    </div>
                 </div>
                 {/* right div */}
