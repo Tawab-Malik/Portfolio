@@ -1,4 +1,5 @@
 "use client"
+import About from "../components/about/page"
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Link, Button} from "@nextui-org/react";
 // import {AcmeLogo} from "./AcmeLogo.jsx";
@@ -28,23 +29,23 @@ export default function Navbars() {
         />
         <NavbarBrand>
           {/* <AcmeLogo /> */}
-          <p className="font-bold text-inherit text-lg text-[#25282B] ">Malik'x</p>
+          <p className=" "><Link href="/" className="font-bold text-inherit text-lg text-[#25282B]">Malik'x</Link></p>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="end">
         <NavbarItem>
-          <Link  href="#" className=" text-lg text-[#25282B]">
+          <Link  href="/components/about" className=" text-lg text-[#25282B]">
             Abouts
           </Link>
         </NavbarItem>
         <NavbarItem isActive={false}>
-          <Link href="#"  className=" text-lg text-[#25282B]">
+          <Link href="#2"  className=" text-lg text-[#25282B]">
             Projects
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link  href="#" className=" text-lg font-normal text-[#25282B]">
+          <Link  href="#3" className=" text-lg font-normal text-[#25282B]">
             Contacts
           </Link>
         </NavbarItem>

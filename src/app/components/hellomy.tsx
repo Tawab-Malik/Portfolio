@@ -10,11 +10,11 @@ export default function Hello(){
          <section>
             <div className=" xl:flex w-full  ">
                 {/* left div */}
-                <div className=" w-full pt-24 py-5">
+                <div className=" w-full pt-16 xl:pt-24 py-5">
                     <p  className=" text-xl text-yellow">Website Developer</p>
-                    <h1 className=" md:text-6xl text-[40px] font-bold">Hello,  my name is Abdul Tawab</h1>
-                    <p  className=" text-silver text-[24px]">Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>
-                   <div className=" flex gap-3">
+                    <h1 className=" md:text-6xl py-5  text-[40px] font-bold">Hello,  my name is Abdul Tawab</h1>
+                    <p  className=" text-silver text-[24px]">I am dedicated to bringing creative designs to life and ensuring seamless user experiences. My goal is to build visually appealing and highly functional websites that meet the needs of users and clients alike.</p>
+                   <div className=" flex gap-3 py-5">
                      <Button className=" bg-yellow w-28 h-10 text-base font-medium">Projects</Button>
                      <Button className=" bg-transparent w-28 h-10 text-base font-medium border-black rounded-lg border-2">Linkedin</Button>
                    </div>

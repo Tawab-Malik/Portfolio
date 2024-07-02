@@ -10,7 +10,7 @@ import Link from "next/link"
 export default function Projects(){
       return(
         <>
-          <section>
+          <section id="2">
             <div className=" py-[100px]">
 
                     <div className=" flex flex-col justify-center items-center">
@@ -45,7 +45,7 @@ export default function Projects(){
                         <div className=" space-y-5 bg-[#f4f4f4] px-8 py-9 w-full xl:w-[50%] rounded-l-3xl">
                               <h1 className=" text-[40px] font-bold">Portfolio</h1>
                               <p className=" text-lg text-silver">I created this personal project in Next.js All the Component that are used are taken from Next.ui as well as Tailwindcss is used to impove the Efficiency of Code.</p>
-                              <Button className=" w-[150px] h-[43px] text-lg font-medium !bg-transparent border border-[#25282B] rounded-3xl"><Link className=" my-5" href="https://https://tawabmalikx.vercel.app/">View Project</Link></Button>                        </div>
+                              <Button className=" w-[150px] h-[43px] text-lg font-medium !bg-transparent border border-[#25282B] rounded-3xl"><Link className=" my-5" href="https://www.stratonode-two.vercel.app">View Project</Link></Button>                        </div>
                         <div className=" h-full w-full xl:w-[50%] !rounded-r-3xl">
                             <Image src="/pro/3.png" isZoomed radius="none" className="  !rounded-r-3xl h-full w-full"  height={1000} width={1000}></Image>
                         </div>

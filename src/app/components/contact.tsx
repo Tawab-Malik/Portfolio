@@ -5,7 +5,7 @@ import { Button, Input, Textarea } from "@nextui-org/react"
 export default function Contact() {
     return (
         <>
-            <section>
+            <section id="3">
                 <div>
 
                     <div className=" flex flex-col justify-center items-center">
