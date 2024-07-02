@@ -10,7 +10,7 @@ export default function Hello(){
          <section>
             <div className=" xl:flex w-full  ">
                 {/* left div */}
-                <div className=" w-full pt-24">
+                <div className=" w-full pt-24 py-5">
                     <p  className=" text-xl text-yellow">Website Developer</p>
                     <h1 className=" md:text-6xl text-[40px] font-bold">Hello,  my name is Abdul Tawab</h1>
                     <p  className=" text-silver text-[24px]">Short text with details about you, what you do or your professional career. You can add more information on the about page.</p>

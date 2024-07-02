@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Comfortaa, Nunito, Raleway } from "next/font/google";
 import "./globals.css";
 import Navbars from "./components/Navbar";
+import Footer from "./components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const comfortaa = Comfortaa({ subsets: ["latin"] });
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body className={`${inter.className} ${comfortaa.className} ${nunito.className} ${raleway.className}`} >
         <Navbars/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

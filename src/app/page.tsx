@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import * as React from "react";
 import Hello from "./components/hellomy";
 import Projects from "./components/projects";
